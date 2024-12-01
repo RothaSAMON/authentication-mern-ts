@@ -11,10 +11,4 @@ class AppError extends Error {
   }
 }
 
-new AppError(
-  200,
-  "magh",
-  AppErrorCode.InvalidAccessToken
-)
-
 export default AppError;
